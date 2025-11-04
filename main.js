@@ -169,4 +169,21 @@ jQuery(window).on('load', function () {
         }
 
     }
+<<<<<<< HEAD
 });
+=======
+});
+
+// const cheerio = require('cheerio');
+// const $ = cheerio.load('<html><body></body></html>'); // Load your HTML here
+
+// $(document).ready(function() {
+//     // Your jQuery-like code
+//     console.log('DOM is ready');
+// });
+
+const cheerio = require('cheerio');
+const html = `<h1>Hello, Cheerio!</h1>`;
+const $ = cheerio.load(html);
+console.log($('h1').text()); // Outputs: Hello, Cheerio!
+>>>>>>> e965e64d44faa3cded1ff3f8c3619b957fce7df4
